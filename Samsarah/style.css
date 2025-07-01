@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.login-box {
+  background-color: rgb(255, 225, 225);
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  display: inline-block;
+  min-width: 320px;
+  text-align: left;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember input {
+  margin-right: 5px;
+}
+
+.entrar {
+  background-color: #ff5e66;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+}
+
+.links {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #666;
+  text-decoration: none;
+}
+
+.aluno {
+  background-color: #ff5e66;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+
+}
+
+.professor {
+  background-color: #ff5e66;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  
+}
